@@ -8,22 +8,25 @@ export default function Navbar() {
     <header className="bg-white shadow-sm sticky top-0 z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          {/* Left: Brand */}
           <div className="flex items-center gap-3">
-            <div className="text-2xl font-bold text-indigo-600">Book Boutique</div>
+            <Link to="/" className="text-2xl font-bold text-pink-600">Book Boutique</Link>
             <p className="text-sm text-gray-500 hidden sm:block">Beautiful finds</p>
           </div>
 
-          <nav className="hidden md:flex items-center gap-6">
-            <Link to="/" className="text-sm hover:text-indigo-600">Home</Link>
-            <Link to="/products" className="text-sm hover:text-indigo-600">Products</Link>
-            <Link to="/about" className="text-sm hover:text-indigo-600">About</Link>
-            <Link to="/contact" className="text-sm hover:text-indigo-600">Contact</Link>
-          </nav>
+          {/* Right: Nav */}
+          <div className="flex items-center gap-4">
+            <nav className="hidden md:flex items-center gap-6">
+              <Link to="/" className="text-sm hover:text-pink-600">Home</Link>
+              <Link to="/products" className="text-sm hover:text-pink-600">Products</Link>
+              <Link to="/about" className="text-sm hover:text-pink-600">About</Link>
+              <Link to="/contact" className="text-sm hover:text-pink-600">Contact</Link>
+              <Link to="/cart" className="text-sm hover:text-pink-600">Cart</Link>
+            </nav>
 
-          <div className="flex items-center gap-3">
             <button
               onClick={() => navigate("/products")}
-              className="hidden sm:inline-block px-3 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700"
+              className="hidden sm:inline-block px-3 py-2 bg-pink-600 text-white rounded hover:bg-pink-700"
             >
               Shop Now
             </button>
@@ -56,6 +59,7 @@ function MobileMenu({ navigate }) {
           <button className="block w-full text-left py-1" onClick={() => { navigate("/products"); setOpen(false); }}>Products</button>
           <button className="block w-full text-left py-1" onClick={() => { navigate("/about"); setOpen(false); }}>About</button>
           <button className="block w-full text-left py-1" onClick={() => { navigate("/contact"); setOpen(false); }}>Contact</button>
+          <button className="block w-full text-left py-1" onClick={() => { navigate("/cart"); setOpen(false); }}>Cart</button>
         </div>
       )}
     </div>
