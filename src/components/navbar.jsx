@@ -10,7 +10,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Left: Brand */}
           <div className="flex items-center gap-3">
-            <Link to="/" className="text-2xl font-bold text-pink-600">Book Boutique</Link>
+            <Link to="/" className="text-2xl font-bold text-pink-600">CHIC BOUTIQUE
+            </Link>
             <p className="text-sm text-gray-500 hidden sm:block">Beautiful finds</p>
           </div>
 
