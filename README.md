@@ -32,6 +32,6 @@ Tech Stack
 - Node.js 18+  
 - npm (or Yarn/pnpm)
 
-![image alt]()
+![image alt](https://github.com/buyinzadiana-bot/-Static-E-commerce-Homepage/blob/11e10e576c51d08cc2309ebe040730811197227c/Screenshot%202025-11-05%20at%2007.46.31.png)
 ![image alt]()
 ![image alt]()
