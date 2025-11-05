@@ -33,5 +33,5 @@ Tech Stack
 - npm (or Yarn/pnpm)
 
 ![image alt](https://github.com/buyinzadiana-bot/-Static-E-commerce-Homepage/blob/11e10e576c51d08cc2309ebe040730811197227c/Screenshot%202025-11-05%20at%2007.46.31.png)
-![image alt]()
+![image alt](https://github.com/buyinzadiana-bot/-Static-E-commerce-Homepage/blob/bb84252b8850b7ab385e58de7f0156228cc88c4a/Screenshot%202025-11-05%20at%2007.47.02.png)
 ![image alt]()
