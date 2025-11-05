@@ -1,6 +1,6 @@
 Static E-commerce Homepage
 
- Project Overview
+ 
 A fast, static e-commerce-style homepage built with React (via Vite) and TailwindCSS. This demo project includes a hero section, product and category listings, a simple cart (using localStorage), and multiple routed pages. Perfect for showcasing products or building a basic e-commerce frontend prototype.
 
  Features
